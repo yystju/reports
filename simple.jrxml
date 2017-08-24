@@ -63,14 +63,14 @@
 				<text><![CDATA[Name]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="300" y="3" width="120" height="15" uuid="28812ce0-4d30-46f1-8b0b-a8416951fd59"/>
+				<reportElement x="270" y="3" width="120" height="15" uuid="28812ce0-4d30-46f1-8b0b-a8416951fd59"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
 				<text><![CDATA[QR Code]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="420" y="3" width="95" height="15" uuid="1bf0ebe8-8ab4-43f3-81b9-f1189ec75f89"/>
+				<reportElement x="390" y="3" width="95" height="15" uuid="1bf0ebe8-8ab4-43f3-81b9-f1189ec75f89"/>
 				<textElement textAlignment="Center">
 					<font isBold="true"/>
 				</textElement>
@@ -102,13 +102,13 @@
 				<textFieldExpression><![CDATA["h测试h"]]></textFieldExpression>
 			</textField>
 			<componentElement>
-				<reportElement x="300" y="0" width="120" height="60" uuid="210944f0-235c-4705-841c-3af5d88ef66d"/>
+				<reportElement x="270" y="0" width="119" height="64" uuid="210944f0-235c-4705-841c-3af5d88ef66d"/>
 				<c:QRCode xmlns:c="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" margin="2" errorCorrectionLevel="M">
 					<c:codeExpression><![CDATA[$F{code}]]></c:codeExpression>
 				</c:QRCode>
 			</componentElement>
 			<textField>
-				<reportElement x="424" y="3" width="91" height="12" uuid="9a4fd3b3-9ccd-4519-a87f-df14bcc15a51"/>
+				<reportElement x="390" y="2" width="91" height="12" uuid="9a4fd3b3-9ccd-4519-a87f-df14bcc15a51"/>
 				<textElement>
 					<font fontName="SansSerif" size="9"/>
 				</textElement>
