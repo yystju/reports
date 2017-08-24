@@ -90,7 +90,7 @@
 			<textField>
 				<reportElement x="30" y="0" width="120" height="15" uuid="c8722599-47bf-43d6-b9c2-590e02a26f9b"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="9"/>
+					<font size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{country}]]></textFieldExpression>
 			</textField>
