@@ -79,7 +79,7 @@
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="64">
+		<band height="80">
 			<staticText>
 				<reportElement mode="Opaque" x="0" y="0" width="515" height="15" backcolor="#E5ECF9" uuid="071c0309-3e8b-4ba1-a089-59ed12ab5171"/>
 				<box>
@@ -102,13 +102,15 @@
 				<textFieldExpression><![CDATA["h测试h"]]></textFieldExpression>
 			</textField>
 			<componentElement>
-				<reportElement x="270" y="0" width="119" height="64" uuid="210944f0-235c-4705-841c-3af5d88ef66d"/>
+				<reportElement x="270" y="0" width="119" height="80" uuid="210944f0-235c-4705-841c-3af5d88ef66d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
 				<c:QRCode xmlns:c="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" margin="2" errorCorrectionLevel="M">
 					<c:codeExpression><![CDATA[$F{code}]]></c:codeExpression>
 				</c:QRCode>
 			</componentElement>
 			<textField>
-				<reportElement x="390" y="2" width="91" height="12" uuid="9a4fd3b3-9ccd-4519-a87f-df14bcc15a51"/>
+				<reportElement x="390" y="2" width="95" height="12" uuid="9a4fd3b3-9ccd-4519-a87f-df14bcc15a51"/>
 				<textElement>
 					<font fontName="SansSerif" size="9"/>
 				</textElement>
