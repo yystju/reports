@@ -2,7 +2,7 @@
 <!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="simple" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c8ef0e98-af69-4ba7-bec2-ef1ac8ee1e50">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
-	<template><![CDATA["style.jrtx"]]></template>
+	<style name="Style" fontName="Courier New" isBold="true"/>
 	<parameter name="hello" class="java.lang.String"/>
 	<parameter name="world" class="java.lang.String"/>
 	<queryString language="json">
@@ -102,15 +102,19 @@
 				<textFieldExpression><![CDATA["h测试h"]]></textFieldExpression>
 			</textField>
 			<componentElement>
-				<reportElement x="270" y="0" width="119" height="80" uuid="210944f0-235c-4705-841c-3af5d88ef66d">
+				<reportElement x="291" y="0" width="79" height="79" uuid="210944f0-235c-4705-841c-3af5d88ef66d">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 				</reportElement>
-				<c:QRCode xmlns:c="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" margin="2" errorCorrectionLevel="M">
+				<c:QRCode xmlns:c="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" margin="2" errorCorrectionLevel="H">
 					<c:codeExpression><![CDATA[$F{code}]]></c:codeExpression>
 				</c:QRCode>
 			</componentElement>
 			<textField>
-				<reportElement x="390" y="2" width="95" height="12" uuid="9a4fd3b3-9ccd-4519-a87f-df14bcc15a51"/>
+				<reportElement x="390" y="0" width="95" height="15" uuid="9a4fd3b3-9ccd-4519-a87f-df14bcc15a51">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
 				<textElement>
 					<font fontName="SansSerif" size="9"/>
 				</textElement>
