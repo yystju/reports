@@ -28,7 +28,7 @@
 					<font size="22"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{hello}]]></textFieldExpression>
-				<anchorNameExpression><![CDATA["Title"]]></anchorNameExpression>
+				<anchorNameExpression><![CDATA["Title1"]]></anchorNameExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="0" y="30" width="515" height="20" uuid="2d26193c-479c-43c1-80b4-b91f77d51daf"/>
@@ -36,6 +36,7 @@
 					<font size="10"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{world}]]></textFieldExpression>
+				<anchorNameExpression><![CDATA["Title2"]]></anchorNameExpression>
 			</textField>
 		</band>
 	</title>
@@ -60,7 +61,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Name]]></text>
+				<text><![CDATA[测试]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="270" y="3" width="120" height="15" uuid="28812ce0-4d30-46f1-8b0b-a8416951fd59"/>
@@ -74,7 +75,7 @@
 				<textElement textAlignment="Center">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[$P{world}]]></text>
+				<text><![CDATA[Name]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
